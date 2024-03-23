@@ -1,0 +1,36 @@
+{
+  "name": "tsscmp-js",
+  "version": "1.1.0",
+  "description": "Timing safe string compare using double HMA",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "build": "tsup",
+    "release": "npm run build && npm version",
+    "lint": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tonysantana1492/tsscmp-js.git"
+  },
+  "keywords": [
+    "timing safe string compare",
+    "double hmac string compare",
+    "safe string compare",
+    "hmac"
+  ],
+  "author": "tonysantana1492",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  }
+}
