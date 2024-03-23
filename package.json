@@ -1,6 +1,6 @@
 {
   "name": "tsscmp-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Timing safe string compare using double HMA",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
