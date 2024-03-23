@@ -38,7 +38,10 @@ async function createHmac(algorithm: HashAlgorithms, key: string) {
   };
 }
 
-export async function timeSafeCompare(a: string, b: string): Promise<boolean> {
+export async function timingSafeCompare(
+  a: string,
+  b: string
+): Promise<boolean> {
   const sa = String(a);
   const sb = String(b);
   const key = crypto.randomUUID();
