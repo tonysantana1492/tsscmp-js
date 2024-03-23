@@ -1,6 +1,6 @@
 {
   "name": "tsscmp-js",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Timing safe string compare using double HMA",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "build": "tsup",
-    "release": "npm run build && npm version minor && npm publish",
+    "release": "npm run build && npm publish",
     "lint": "tsc"
   },
   "repository": {
