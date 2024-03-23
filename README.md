@@ -25,7 +25,9 @@ import { timingSafeCompare } from "tsscmp-js";
 const sessionToken = "5439fd10-e3e0-4926-a239-e95658906718";
 const givenToken = "5439fd10-e3e0-4926-a239-e95658906718";
 
-if (timingSafeCompare(sessionToken, givenToken)) {
+const isValid = await timingSafeCompare(sessionToken, givenToken);
+
+if (isValid) {
   console.log("good token");
 } else {
   console.log("bad token");
