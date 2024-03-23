@@ -1,0 +1,6 @@
+.env
+*.log
+.DS_Store
+
+tsconfig.json
+tsup.config.ts
